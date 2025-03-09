@@ -878,10 +878,10 @@ for fid in range(len(iris.feature_names)):
     print(iris.feature_names[fid], 'univariate score: '), clf.score(X,y)
 
 
-# In[152]:
+# In[190]:
 
 
-# Decision and selection based on Korrelations and Accuracy
+# Decision and selection based on Correlations and Accuracy
 
 import pandas as pd
 
@@ -904,13 +904,6 @@ print(df.corr()) # Normalized Correlations
 print(df.corr('pearson')) # Pearson Correlations
 print(df.corr('spearman')) # Spearman Correlations
 print(df.cov()) # Covariance Matrix
-
-y_train, y_test, X_train, X_test = train_test_split(y, X, test_size=0.2, random_state=42)
-
-model = LinearRegression()
-model.fit(y_train, X_train)
-
-X_pred = model.predict(y_test)
 
 
 # In[154]:
