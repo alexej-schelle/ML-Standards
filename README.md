@@ -29,6 +29,7 @@ Python software to calculate basic ML measures and model prediction for the exam
 - Analyse im Pandas Framework
 - Heatmaps and Confusion Matrices
 - Lineare Regression
+- Principal Component Analysis
     
 ***********************************************************************************************************************************************************
 
