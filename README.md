@@ -1,9 +1,6 @@
 # ML-Standards
 Standard Data Mining Techniques für DIGITS, DIABETES und IRIS Datensatz aus Sklearn
 
-# Phase correlations in ultracold atomic lasers
-Python software to calculate basic ML measures and model prediction for the example IRIS dataset
-
 # Installation unter Linux und Mac Betriebssystemen
 ***********************************************************************************************************************************************************
     git clone https://github.com/alexej-schelle/ML-Standards/ and start the Python Files
